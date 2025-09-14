@@ -1,0 +1,60 @@
+/* Navbar Container */
+.navbar {
+  background-color: #0A0F1F; /* Deep Space Navy */
+  color: #E5E5E5; /* Soft White */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00F5D4; /* Neon Aqua */
+  cursor: pointer;
+}
+
+/* Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #E5E5E5; /* Soft White */
+  font-size: 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #00F5D4; /* Neon Aqua */
+  border-bottom: 2px solid #00F5D4;
+}
+
+/* Active Link */
+.navbar-links li a.active {
+  color: #00F5D4;
+  border-bottom: 2px solid #00F5D4;
+}
+
+/* Accent Button */
+.accent-btn {
+  background-color: #FF4D6D; /* Vivid Coral Pink */
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: #0A0F1F; /* Deep Space Navy */
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.accent-btn:hover {
+  background-color: #00F5D4; /* Neon Aqua */
+  color: #0A0F1F;
+}
