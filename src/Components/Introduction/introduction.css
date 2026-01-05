@@ -113,11 +113,17 @@
   transform: scale(1.05);
 }
 
-.scroll-down {
+.scroll-down{
+animation: bounce 2s infinite;
+ margin-top: 2px;
+  
+}
+.scroll-down a{
   margin-top: 50px;
   font-size: 2rem;
   color: #00F5D4;
-  animation: bounce 2s infinite;
+  text-decoration: none;
+ 
 }
 
 @keyframes bounce {
